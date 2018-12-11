@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="255.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="screen" alignment="CENTER_RIGHT" layoutX="5.0" layoutY="14.0" prefHeight="70.0" prefWidth="245.0" text="0">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <Button layoutX="5.0" layoutY="100.0" mnemonicParsing="false" onAction="#onClick7" prefHeight="45.0" prefWidth="45.0" text="7" AnchorPane.leftAnchor="5.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="100.0" mnemonicParsing="false" onAction="#onClick8" prefHeight="45.0" prefWidth="45.0" text="8" AnchorPane.leftAnchor="55.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="105.0" layoutY="100.0" mnemonicParsing="false" onAction="#onClick9" prefHeight="45.0" prefWidth="45.0" text="9" AnchorPane.leftAnchor="105.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="100.0" mnemonicParsing="false" onAction="#onClickDivide" prefHeight="45.0" prefWidth="45.0" text="/" AnchorPane.leftAnchor="155.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClickNegative" prefHeight="45.0" prefWidth="45.0" text="+/-" AnchorPane.leftAnchor="205.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClickMultiply" prefHeight="45.0" prefWidth="45.0" text="*">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="105.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClick6" prefHeight="45.0" prefWidth="45.0" text="6">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClick5" prefHeight="45.0" prefWidth="45.0" text="5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="150.0" mnemonicParsing="false" onAction="#onClick4" prefHeight="45.0" prefWidth="45.0" text="4">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClick1" prefHeight="45.0" prefWidth="45.0" text="1">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClick2" prefHeight="45.0" prefWidth="45.0" text="2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="105.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClick3" prefHeight="45.0" prefWidth="45.0" text="3">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClickDeduct" prefHeight="45.0" prefWidth="45.0" text="-">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="205.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClickEquals" prefHeight="95.0" prefWidth="45.0" text="=">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="250.0" mnemonicParsing="false" onAction="#onClickSum" prefHeight="45.0" prefWidth="45.0" text="+">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button disable="true" layoutX="105.0" layoutY="250.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" text=",">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="5.0" layoutY="250.0" mnemonicParsing="false" onAction="#onClick0" prefHeight="45.0" prefWidth="95.0" text="0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button defaultButton="true" layoutX="205.0" layoutY="100.0" mnemonicParsing="false" onAction="#onClickC" prefHeight="45.0" prefWidth="45.0" text="C" textFill="RED">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
